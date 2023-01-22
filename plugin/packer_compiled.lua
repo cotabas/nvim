@@ -134,6 +134,11 @@ _G.packer_plugins = {
     path = "/home/cptmo/.local/share/nvim/site/pack/packer/start/melange-nvim",
     url = "https://github.com/savq/melange-nvim"
   },
+  nerdtree = {
+    loaded = true,
+    path = "/home/cptmo/.local/share/nvim/site/pack/packer/start/nerdtree",
+    url = "https://github.com/scrooloose/nerdtree"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/cptmo/.local/share/nvim/site/pack/packer/start/nvim-cmp",
