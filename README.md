@@ -20,6 +20,12 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
+Install ripgrep for the grep search to work:
+
+```
+sudo apt install ripgrep
+```
+
  Clone this to ~/.config/
 
  :so the packer.lua file
