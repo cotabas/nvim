@@ -1,21 +1,32 @@
 # neovim plugins
 
-* Install the unstable neovim, atleast 0.9
+## Pre reqs:
+* npm
+* gcc
+* unzip
+
+## Install the unstable neovim, atleast 0.9
 
 ```
 sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
-sudo apt-get install neovim-ppa
+sudo apt-get install neovim
 ```
 
-* Clone this to ~/.config/
-
-* Install packer:
+## Install packer:
 
 ```
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
+
+Install ripgrep for the grep search to work:
+
+```
+sudo apt install ripgrep
+```
+
+ Clone this to ~/.config/
 
  :so the packer.lua file
 
