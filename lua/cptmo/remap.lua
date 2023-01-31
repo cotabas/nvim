@@ -1,7 +1,12 @@
 vim.g.mapleader = " "
+-- not as good as nerdtree
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
+-- yeah! not as quick as harpoon but super helpful
+vim.keymap.set("n", "<C-a>", vim.cmd.bnext)
+vim.keymap.set("n", "<C-d>", vim.cmd.bprev)
 
+-- ＼（〇_ｏ）／
 vim.keymap.set("n", "<leader>s", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>")
 
 -- from the primeagen guy :
