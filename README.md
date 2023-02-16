@@ -4,13 +4,22 @@
 * npm
 * gcc
 * unzip
+Fedora additionally needs
+* gcc-c++
 
 ## Install the unstable neovim, atleast 0.9
 
+### Ubuntu
 ```
 sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
 sudo apt-get install neovim
+```
+
+### Fedora
+```
+sudo dnf copr enable agriffis/neovim-nightly
+sudo dnf install -y neovim python3-neovim
 ```
 
 ## Install packer:

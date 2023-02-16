@@ -5,8 +5,7 @@ lsp.preset('recommended')
 lsp.ensure_installed({
 	'html',
 	'cssls',
-	'tsserver',
-	'sumneko_lua'
+	'tsserver'
 })
 
 
