@@ -4,7 +4,8 @@
 * npm
 * gcc
 * unzip
-Fedora additionally needs
+
+### Fedora additionally needs
 * gcc-c++
 
 ## Install the unstable neovim, atleast 0.9
