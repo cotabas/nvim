@@ -8,7 +8,7 @@
 ### Fedora additionally needs
 * gcc-c++
 
-## Install the unstable neovim, atleast 0.9
+## Install the unstable neovim, atleast 0.8.3
 
 ### Ubuntu
 ```
@@ -18,6 +18,7 @@ sudo apt-get install neovim
 ```
 
 ### Fedora
+ugh.. don't do this. fedora has neovim 0.8.3 and it works great without randomly breaking because of some bad nightly
 ```
 sudo dnf copr enable agriffis/neovim-nightly
 sudo dnf install -y neovim python3-neovim
