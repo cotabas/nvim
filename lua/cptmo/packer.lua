@@ -12,7 +12,7 @@ return require('packer').startup(function(use)
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
-  use "savq/melange-nvim"
+ -- use "savq/melange-nvim"
   use { "ellisonleao/gruvbox.nvim" }
   use {
 	  'nvim-treesitter/nvim-treesitter',
@@ -21,13 +21,12 @@ return require('packer').startup(function(use)
 		  ts_update()
 	  end,
   }
-  -- use 'nvim-treesitter/playground'
-  --playground is for making plugins.. not something I need
-  
   use 'theprimeagen/harpoon'
   use 'mbbill/undotree'
+  use 'scrooloose/nerdtree'
+  use 'christoomey/vim-tmux-navigator'
 --  use 'tpope/vim-fugitive'
-  use 'nanozuki/tabby.nvim'
+--  use 'nanozuki/tabby.nvim'
 
   use {
 	  'VonHeikemen/lsp-zero.nvim',
@@ -50,7 +49,6 @@ return require('packer').startup(function(use)
 		  {'rafamadriz/friendly-snippets'}, -- Optional
 	  }
   }
-  use 'scrooloose/nerdtree'
 
   use {
     'nvim-lualine/lualine.nvim',

@@ -139,11 +139,6 @@ _G.packer_plugins = {
     path = "/home/cptmo/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  ["melange-nvim"] = {
-    loaded = true,
-    path = "/home/cptmo/.local/share/nvim/site/pack/packer/start/melange-nvim",
-    url = "https://github.com/savq/melange-nvim"
-  },
   nerdtree = {
     loaded = true,
     path = "/home/cptmo/.local/share/nvim/site/pack/packer/start/nerdtree",
@@ -180,11 +175,6 @@ _G.packer_plugins = {
     path = "/home/cptmo/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["tabby.nvim"] = {
-    loaded = true,
-    path = "/home/cptmo/.local/share/nvim/site/pack/packer/start/tabby.nvim",
-    url = "https://github.com/nanozuki/tabby.nvim"
-  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/cptmo/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -194,6 +184,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/cptmo/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
+  },
+  ["vim-tmux-navigator"] = {
+    loaded = true,
+    path = "/home/cptmo/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
+    url = "https://github.com/christoomey/vim-tmux-navigator"
   }
 }
 

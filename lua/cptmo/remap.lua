@@ -19,3 +19,9 @@ vim.keymap.set("v", "<leader>y", "\"+y")
 vim.keymap.set("n", "<leader>Y", "\"+Y")
 
 vim.keymap.set("n", "<leader>fd", function() vim.lsp.buf.definition() end)
+
+-- remaps for the tmux vim nav
+vim.keymap.set("n", "<C-h>", vim.cmd.TmuxNavigateLeft) 
+vim.keymap.set("n", "<C-l>", vim.cmd.TmuxNavigateRight) 
+vim.keymap.set("n", "<C-j>", vim.cmd.TmuxNavigateDown) 
+vim.keymap.set("n", "<C-k>", vim.cmd.TmuxNavigateUp) 
