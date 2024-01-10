@@ -1,4 +1,10 @@
 vim.g.mapleader = " "
+
+-- spell chex
+-- ok.. I was going to map spell check to leader z= but for some reason this turns it on always, but it only spell checks comments so that's fine I guess..
+--
+vim.keymap.set("n", "<leader>z=", vim.cmd "setlocal spell spelllang=en_us")
+
 -- not as good as nerdtree
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
